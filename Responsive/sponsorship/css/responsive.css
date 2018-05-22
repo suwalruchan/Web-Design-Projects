@@ -1,0 +1,41 @@
+
+
+@media (max-width:960px)
+{
+	.navbar-header a img
+	{
+		width:60%;
+	}
+
+}
+
+
+
+@media (max-width:767px)
+{
+	.navbar-header a img
+	{
+		width:40%;
+	}
+		.navbar-collapse.collapse
+	{
+		float:none !important;
+	}
+}
+
+@media (max-width:480px)
+{
+	.navbar-header a img
+	{
+		width:40%;
+	}
+	footer .footer-text p
+	{
+		font-size:11px;
+		text-align:center;
+	}
+	.social-media
+	{
+		text-align:center;
+	}
+}

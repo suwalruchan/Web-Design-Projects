@@ -1,0 +1,545 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Travel Agencies Book</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/global.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/style3.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.10.2.js"></script>
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <!-- use jssor.slider.mini.js (39KB) or jssor.sliderc.mini.js (31KB, with caption, no slideshow) or jssor.sliders.mini.js (26KB, no caption, no slideshow) instead for release -->
+    <!-- jssor.slider.mini.js = jssor.sliderc.mini.js = jssor.sliders.mini.js = (jssor.core.js + jssor.utils.js + jssor.slider.js) -->
+    <script type="text/javascript" src="js/jssor.core.js"></script>
+    <script type="text/javascript" src="js/jssor.utils.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+</head>
+
+<body>
+<!------------header--------->
+<div class="header">
+	<div class="navbar navbar-inverse">
+		<div class="container">
+			<div class="col-md-9 col-sm-8 col-xs-12">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Things to do</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Locations<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Picnic</a></li>
+						<li><a href="#">College</a></li>
+						<li><a href="#">Wallpapers</a></li>
+						<li><a href="#">Memory</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Need To Know</a></li>
+			</ul>
+		</div><!--/.nav-collapse -->
+			</div>
+			
+			<div class="col-md-3 col-sm-4 col-xs-12">
+				<div class="register">
+					<a class="login">Login</a>
+					<a class="signup">Plan a Trip</a>
+				</div>
+			</div>
+	  </div>
+	</div>
+</div>
+
+<!-----------banner image--------------->
+<div class="iternary-banner">
+	<img src="images/iternayimg.jpg" alt="">
+</div>
+	
+<!------------content section-------------	-->
+<div class="search-section">
+	<div class="container">
+		<div class="search-page">
+			<div class="package-search">
+				<div class="row">
+					<div class="col-md-5 col-sm-7 col-xs-12">
+						<!-------------------search bar---------------->
+						<div class="search-by-price">
+							<div class="price-option">
+								<img src="images/price-option.png" alt="">
+							</div>
+							<div class="package-option">
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<div class="pack-name">
+										<input type="checkbox"><label>Adventure Package</label>
+									</div>
+									<div class="pack-name">
+										<input type="checkbox"><label>Hiking Package</label>
+									</div>
+									<div class="pack-name">
+										<input type="checkbox"><label>Tour Package</label>
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<div class="pack-name">
+										<input type="checkbox"><label>Pilgrim Package</label>
+									</div>
+									<div class="pack-name">
+										<input type="checkbox"><label>Mountain Package</label>
+									</div>
+									<div class="pack-name">
+										<input type="checkbox"><label>Safari Package</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-5 col-xs-12">
+						<div class="rating">
+							<div class="star-rating">
+								<img src="images/yellowstar.png" alt="">
+								<img src="images/yellowstar.png" alt="">
+								<img src="images/yellowstar.png" alt="">
+								<img src="images/yellowstar.png" alt="">
+								<img src="images/yellowstar.png" alt="">
+							</div>
+							<div class="heart-rating">
+								<img src="images/red-heart.png" alt="">
+								<img src="images/red-heart.png" alt="">
+								<img src="images/red-heart.png" alt="">
+								<img src="images/red-heart.png" alt="">
+								<img src="images/red-heart.png" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 input-val">
+						<div id="tfheader">
+							<form id="tfnewsearch" method="get" action="#">
+									<input type="text" class="input-label" value="Enter Keyword"><input type="text" class="tftextinput" name="q" size="21"><input type="button" class="tfbutton">
+							</form>
+							<div class="tfclear"></div>
+						</div>
+						<div class="select-price">
+							<img src="images/price-option.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!------------main content--------------->
+			<div class="main-content">
+				<!-----------left side------------->
+				<div class="col-md-6">
+					<div class="rate">
+						<div class="col-md-6 col-sm-6 col-xs-6">
+							<div class="rate-block stars"> 
+								<img src="images/yellowstar.png" alt="">
+								<img src="images/yellowstar.png" alt="">
+								<img src="images/yellowstar.png" alt="">
+								<img src="images/yellowstar.png" alt="">
+								<img src="images/whitestar.png" alt="">						
+							</div>
+							<div class="rate-block stars"> 
+								<img src="images/yellowstar.png" alt="">
+								<img src="images/yellowstar.png" alt="">
+								<img src="images/yellowstar.png" alt="">
+								<img src="images/yellowstar.png" alt="">
+								<img src="images/whitestar.png" alt="">						
+							</div>
+							<div class="rate-block stars"> 
+								<img src="images/yellowstar.png" alt="">
+								<img src="images/yellowstar.png" alt="">
+								<img src="images/yellowstar.png" alt="">
+								<img src="images/yellowstar.png" alt="">
+								<img src="images/whitestar.png" alt="">						
+							</div>
+							
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-6">
+							<div class="rate-block hearts">
+								<img src="images/red-heart.png" alt="">
+								<img src="images/red-heart.png" alt="">
+								<img src="images/red-heart.png" alt="">
+								<img src="images/white-heart.png" alt="">
+								<img src="images/white-heart.png" alt="">
+							</div>
+							<div class="rate-block hearts">
+								<img src="images/red-heart.png" alt="">
+								<img src="images/red-heart.png" alt="">
+								<img src="images/half-heart.png" alt="">
+								<img src="images/white-heart.png" alt="">
+								<img src="images/white-heart.png" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+					
+					<div class="attract-thumbnail">
+						<div class="row">
+							<div class="col-md-6 col-sm-6 col-xs-6 prev">
+								<div class="attract-content">
+									<div class="prev-image">
+										<img src="images/img9.jpg" alt="">
+										<div class="hover">
+											<a href="#"><img src="images/wishlist.png" alt=""></a>
+										</div>
+									</div>
+									<div class="description">
+										<h4>Bungee Jump</h4>
+										<p>Bhotay Koshi</p>
+									</div>
+									<div class="pack-rate">
+										<div class="star-rate">
+											<img src="images/blue-star.png" alt="">
+											<img src="images/blue-star.png" alt="">
+											<img src="images/blue-star.png" alt="">
+											<img src="images/small-white-star.png" alt="">
+											<img src="images/small-white-star.png" alt="">
+										</div>
+										<p><a href="#">Read All Reviews</a></p>
+									</div>
+									<div class="price-tag">
+										<div class="button-wrapper-large">
+											<a href="#" class="a-btn">
+												<span class="a-btn-text">$138</span> 
+												<span class="a-btn-slide-text">Book Now</span>
+												<span class="a-btn-icon-right"><span></span></span>
+											</a>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-6 col-sm-6 col-xs-6 prev">
+								<div class="attract-content">
+									<div class="prev-image">
+										<img src="images/img9.jpg" alt="">
+										<div class="hover">
+											<a href="#"><img src="images/wishlist.png" alt=""></a>
+										</div>
+									</div>
+									<div class="description">
+										<h4>Bungee Jump</h4>
+										<p>Bhotay Koshi</p>
+									</div>
+									<div class="pack-rate">
+										<div class="star-rate">
+											<img src="images/blue-star.png" alt="">
+											<img src="images/blue-star.png" alt="">
+											<img src="images/blue-star.png" alt="">
+											<img src="images/small-white-star.png" alt="">
+											<img src="images/small-white-star.png" alt="">
+										</div>
+										<p><a href="#">Read All Reviews</a></p>
+									</div>
+									<div class="price-tag">
+										<div class="button-wrapper-large">
+											<a href="#" class="a-btn">
+												<span class="a-btn-text">$138</span> 
+												<span class="a-btn-slide-text">Book Now</span>
+												<span class="a-btn-icon-right"><span></span></span>
+											</a>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!---------------right side--------------->
+				<div class="col-md-6">
+					<div class="activity-feed">
+						<div class="acti-title">
+							Activity Feed
+						</div>
+						<div class="feed-catg">
+							<!-----------feed thumb---------->
+							<div class="feed-thumb orange">
+								<div class="thumb-content">
+									
+								</div>
+								<div class="notification">
+									<div class="row">
+										<div class="col-md-7 col-sm-7 col-xs-7 deadline day">
+											<img src="images/oran-not.png" alt="">
+											<strong>1 Day Left</strong>
+										</div>
+										<div class="col-md-3 col-sm-3 col-xs-2  deadline resume">
+											<a href="#"><img src="images/play.png" alt=""></a>
+											<strong><a href="#">Resume</a></strong>
+										</div>
+										<div class="col-md-2 col-sm-2 col-xs-3  option">
+											<a href="#"><img src="images/option.png" alt=""></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-----------feed thumb---------->
+							<div class="feed-thumb yellow">
+								<div class="thumb-content">
+									
+								</div>
+								<div class="notification">
+									<div class="row">
+										<div class="col-md-7 col-sm-7 col-xs-7 deadline day">
+											<img src="images/brown-not.png" alt="">
+											<strong>1 Day Left</strong>
+										</div>
+										<div class="col-md-3 col-sm-3 col-xs-2  deadline resume">
+											<a href="#"><img src="images/play.png" alt=""></a>
+											<strong><a href="#">Resume</a></strong>
+										</div>
+										<div class="col-md-2 col-sm-2 col-xs-3  option">
+											<a href="#"><img src="images/option.png" alt=""></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-----------feed thumb---------->
+							<div class="feed-thumb green">
+								<div class="thumb-content">
+									
+								</div>
+								<div class="notification">
+									<div class="row">
+										<div class="col-md-7 col-sm-7 col-xs-9 deadline day">
+											<img src="images/tick.png" alt="">
+											<strong>Yeah, awesome!</strong>
+										</div>
+										<div class="col-md-5 col-sm-5 col-xs-3  deadline resume not-interest">
+											<a href="#"><img src="images/red-cross.png" alt=""></a>
+											<strong><a href="#">Not Interested</a></strong>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-----------feed thumb---------->
+							<div class="feed-thumb blue">
+								<div class="thumb-content">
+									
+								</div>
+								<div class="notification">
+									<div class="row">
+										<div class="col-md-7 col-sm-7 col-xs-7 deadline day">
+											<img src="images/blue-tick.png" alt="">
+											<strong>Completed!</strong>
+										</div>
+										<div class="col-md-3 col-sm-3 col-xs-2  deadline resume">
+											<a href="#"><img src="images/graph.png" alt=""></a>
+											<strong><a href="#">Report</a></strong>
+										</div>
+										<div class="col-md-2 col-sm-2 col-xs-3  option">
+											<a href="#"><img src="images/option.png" alt=""></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-----------feed thumb---------->
+							<div class="feed-thumb gray">
+								<div class="thumb-content">
+									
+								</div>
+								<div class="notification">
+									<div class="row">
+										<div class="col-md-7 col-sm-7 col-xs-7 deadline day">
+											<img src="images/cross.png" alt="">
+											<strong>Unresolved</strong>
+										</div>
+										<div class="col-md-3 col-sm-3 col-xs-2  deadline resume">
+											<a href="#"><img src="images/play.png" alt=""></a>
+											<strong><a href="#">Start</a></strong>
+										</div>
+										<div class="col-md-2 col-sm-2 col-xs-3  option">
+											<a href="#"><img src="images/option.png" alt=""></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="load-more">
+							<img src="images/loading.png" alt="">
+							<a href="#">Load more items in activity feed</a>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+				
+			<!-----------package thumbnail description----------------->
+				<div class="col-lg-10 col-md-10 col-sm-10">
+					<div class="pack-thumbnail">
+						<div class="row">
+						<div class="col-lg-8 col-md-8 col-sm-12 detail">
+							<div class="package-title">
+								Bunjee Jump
+							</div>
+							<div class="package-desc">
+								<p>lorem ipsum is a dummy text that is used as a lorem ipsum is a dummy text. lorem ipsum is a dummy text that is used as a lorem ipsum is a dummy text that is used as a test content in a website.lorem ipsum is a dummy text that is used as a test content in a website.</p>
+							</div>
+							<div class="timeline">
+								<img src="images/oran-not.png" alt="">
+								<strong>1 day left!</strong>
+							</div>
+							<div class="package-brief">
+								<div class="row">
+									<div class="col-md-6 col-sm-6 package-likes">
+										<img src="images/small-red-heart.png" alt="">
+										<img src="images/small-red-heart.png" alt="">
+										<img src="images/small-red-heart.png" alt="">
+										<img src="images/small-red-heart.png" alt="">
+										<img src="images/small-red-heart.png" alt="">
+									</div>
+									<div class="col-md-6 col-sm-6 package-cost">
+										<p>NRs. 13000</p>
+									</div>			
+								</div>					
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 image-prev">
+							<img src="images/img9.jpg" alt="" class="preview-img">
+						</div>
+					</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			
+		</div>
+				
+				
+				
+				
+				
+			
+		</div>
+</div>
+	
+
+	
+
+
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-12">
+				<div class="row links">
+					<div class="col-md-4 col-sm-4 col-xs-4">
+						<ul>
+							<li class="head">Flights</li>
+							<li><a href="#">Flights+Hotel Deals</a></li>
+							<li><a href="#">International Flights</a></li>
+							<li><a href="#">Hotels</a></li>
+							<li><a href="#">International Hotels</a></li>
+							<li><a href="#">Holidays In India</a></li>
+							<li><a href="#">International Holidays</a></li>
+							<li><a href="#">Cheap Tickets To India</a></li>
+							<li><a href="#">Bus Tickets</a></li>
+							<li><a href="#">Rail</a></li>
+							<li><a href="#">Route Planner</a></li>
+							<li><a href="#">Mobile Site</a></li>
+							<li><a href="#">Mobile Apps</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4">
+						<ul>
+							<li class="head">About Us</li>
+							<li><a href="#">Flights+Hotel Deals</a></li>
+							<li><a href="#">International Flights</a></li>
+							<li><a href="#">Hotels</a></li>
+							<li><a href="#">International Hotels</a></li>
+							<li><a href="#">Holidays In India</a></li>
+							<li><a href="#">International Holidays</a></li>
+							<li><a href="#">Cheap Tickets To India</a></li>
+							<li><a href="#">Bus Tickets</a></li>
+							<li><a href="#">Rail</a></li>
+							<li><a href="#">Route Planner</a></li>
+							<li><a href="#">Mobile Site</a></li>
+							<li><a href="#">Mobile Apps</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4">
+						<ul>
+							<li class="head">Domestic Airlines</li>
+							<li><a href="#">Flights+Hotel Deals</a></li>
+							<li><a href="#">International Flights</a></li>
+							<li><a href="#">Hotels</a></li>
+							<li><a href="#">International Hotels</a></li>
+							<li><a href="#">Holidays In India</a></li>
+							<li><a href="#">International Holidays</a></li>
+							<li><a href="#">Cheap Tickets To India</a></li>
+							<li><a href="#">Bus Tickets</a></li>
+							<li><a href="#">Rail</a></li>
+							<li><a href="#">Route Planner</a></li>
+							<li><a href="#">Mobile Site</a></li>
+							<li><a href="#">Mobile Apps</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="social-icons">
+					<h3>FOLLOW:</h3>
+					<i class="fa fa-facebook"></i>
+					<i class="fa fa-twitter"></i>
+					<i class="fa fa-google-plus"></i>
+					<i class="fa fa-vine"></i>
+					<i class="fa fa-rss"></i>
+				</div>
+				<div class="clear"></div>
+				<div class="footer-menu">
+					<ul>
+						<li class="effects"><a href="#">Home</a></li>
+						<li class="effects"><a href="#">About</a></li>
+						<li class="effects"><a href="#">Services</a></li>
+						<li class="effects"><a href="#">Work</a></li>
+						<li class="effects"><a href="#">Blog</a></li>
+						<li class="effects"><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					<p>&copy; 2013 BlueBox. All Rights Reserved.</p>
+					<p>The logos used in the design are the property of their respective owners / copyright holders.</p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</footer>
+<a href="#" class="scrollToTop"><i class="fa fa-arrow-circle-up"></i>
+</a>
+<script src="js/bootstrap.js"></script>
+<script>
+$(document).ready(function(){
+	
+	//Check to see if the window is top if not then display button
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+	
+});
+</script>
+</body>
+</html>

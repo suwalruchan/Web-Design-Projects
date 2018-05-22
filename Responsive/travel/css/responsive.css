@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width:991px)
+{
+.navbar-collapse ul li a
+{
+	padding:10px 10px !important;
+}
+	.destinations .title h1
+	{
+		font-size:35px;
+	}
+	.flip3d
+	{
+		height:190px;
+	}
+	.tab .feature button
+	{
+		font-size:26px;
+	}
+	.car-info .requirement button
+	{
+		font-size:14px;
+	}
+	.package-desc,
+	.pack-thumbnail,
+	.image-prev
+	{
+		height:auto;
+	}
+
+
+
+}
+@media (max-width:767px)
+{
+	.navbar-collapse
+	{
+		float:none;
+	}
+	.register
+	{
+		text-align:right;
+		margin-bottom:20px;
+	}
+	.search
+	{
+		margin-top:200px;
+	}
+	.destinations .title h1
+	{
+		font-size:30px;
+	}
+	.footer-menu,
+	.copyright p
+	{
+		text-align:center;
+	}
+	h1
+	{
+		font-size:30px !important;
+	}
+	.flip3d > .front,
+	.flip3d > .back
+	{
+		width:90%;
+	}
+	.tab .feature button
+	{
+		font-size:22px;
+	}
+	footer .links li.head
+	{
+		font-size:15px;
+	}
+	.book-section .book
+	{
+		margin:-30px 10px 0px 10px;
+	}
+	.book-section img
+	{
+		margin-bottom:20px;
+	}
+	.tab-con,
+	.package,
+	.ad-section
+	{
+		padding:0px 10px;
+	}
+	.ad-section
+	{
+		margin:0px 5px;
+	}
+	.pack-title h1
+	{
+		font-size:25px !important;
+	}
+	.car-info .desc h3
+		{
+			font-size:20px;
+		}
+		.car-info .price p
+		{
+			font-size:15px;
+		}
+		.car-info .example .avail p
+		{
+			text-align:left;
+			font-size:13px;
+			margin-top:0px;
+		}
+		.col-xs-12.thumb
+		{
+			width:50%;
+		}
+		.car-info .requirement
+			{
+				margin-top:0px;
+			}
+		.car-info .requirement button
+			{
+				margin-top:10px;
+				font-size:18px;
+			}
+		.rate-block.stars img
+	{
+		height:30px;
+		width:30px;
+	}
+	.rate-block.hearts img
+	{
+		height:28px;
+		width:32px;
+	}
+	.resume strong
+	{
+		display:none;
+	}
+	.package-likes
+	{
+		border-bottom:1px solid #e1e1e1;
+	}
+
+	
+}
+@media (max-width:480px)
+{
+	.col-xs-6.block
+	{
+		width:100%;
+	}
+	.links .col-xs-4
+	{
+		width:100%;
+		text-align:center;
+	}
+	h1
+	{
+		font-size:26px !important;
+	}
+	.flip3d
+	{
+		height:220px;
+	}
+	footer .links li.head
+	{
+		font-size:16px;
+	}
+	.social-icons
+	{
+		float:none;
+		text-align:center;
+	}
+	.book-section .row
+	{
+		margin-top:-10px;
+		padding:10px 0px;
+	}
+	.tag button
+	{
+		font-size:13px !important;
+		height:30px !important;
+	}
+	.tab-section .nav-tabs li a
+	{
+		font-size:11px !important;
+		padding:6px 0px !important;
+		font-weight:normal;
+	}
+	.pack-title h1
+	{
+		font-size:20px !important;
+	}
+	.car-info .desc h3
+		{
+			font-size:17px;
+			font-weight:bold;
+		}
+		.car-info .price p
+		{
+			font-size:13px;
+		}
+		.car-info .example .name p
+		{
+			font-size:13px;
+		}
+		.col-xs-12.thumb
+		{
+			width:80%;
+		}
+	.package-option .col-xs-6
+	{
+		width:100%;
+	}
+	.package-search,
+	.rate
+	{
+		text-align:center;
+	}
+	.package-option
+	{
+		text-align:left;
+		margin-left:20px;
+	}
+	.rate .col-xs-6,
+	.col-xs-6.prev
+	{
+		width:100%;
+	}
+	.rate > div
+	{
+		margin-bottom:30px;
+	}
+	.col-xs-6.thumb
+	{
+		width:100%;
+	}
+	/*.col-xs-7.deadline,
+	.col-xs-3.deadline,
+	.col-xs-2.resume
+	{
+		width:100%;
+	}*/
+	.deadline.day
+	{
+		padding-left:20px !important;
+	}
+	.deadline.resume
+	{
+		padding-left:10px !important;
+	}
+	
+	
+
+	
+}
+@media (max-width:320px)
+{
+	.flip3d
+	{
+		height:180px;
+	}
+	.car-info .desc h3
+		{
+			font-size:15px;
+			font-weight:bold;
+		}
+		.car-info .price p
+		{
+			font-size:11px;
+		}
+	.car-info .example .name p
+		{
+			font-size:10px;
+		}
+}

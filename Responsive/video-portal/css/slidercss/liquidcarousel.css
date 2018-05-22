@@ -1,0 +1,43 @@
+.liquid {
+	background:#313b31 url('../images/bodybackground.png') repeat-y scroll 50% 0;
+	border:2px solid #19301C;
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+	border-radius:10px 10px 10px 10px;
+	padding:5px 0;
+	margin-top:10px;
+}
+.liquid .previous {
+	display:block;
+	height:120px;
+	width:60px;
+	background:url(../../images/previous.png) no-repeat;
+	float:left;
+	margin-right:20px;
+	padding:0;
+}
+.liquid .next {
+	display:block;
+	height:120px;
+	width:60px;
+	background:url(../../images/next.png) no-repeat;
+	float:right;
+	margin:0;
+	padding:0;
+}
+.liquid ul li {
+	width:100px;
+	padding:0 2px;
+	margin:0;
+}
+.liquid ul li.selected
+{
+	opacity:0.5;
+}
+.liquid ul li a img {
+	-moz-box-shadow: 5px 5px 3px #222;
+   	-webkit-box-shadow: 5px 5px 3px #222;
+   	box-shadow: 5px 5px 3px #222;
+	height:125px;
+	width:90px;
+}

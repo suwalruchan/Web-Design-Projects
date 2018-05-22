@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width:991px)
+{
+
+.navbar-collapse ul li a
+{
+	padding-left:8px;
+	padding-right:8px;
+}
+
+
+
+}
+@media (max-width:767px)
+{
+	.navbar
+	{
+		margin-top:80px !important;
+	}
+	.navbar-collapse .navbar-nav
+	{
+		float:left !important;
+		width:100%;
+	}
+	.navbar-brand
+	{
+		bottom:100px !important;
+	}
+	.navbar-brand img
+	{
+		width:250px;
+	}
+	#tfnewsearch
+	{
+		width:90% !important;
+		padding:10px 0px;
+	}
+
+	.input-label
+	{
+		font-size:14px;
+		width:50% !important;
+	}
+	.footer-menu ul li a
+	{
+		font-size:13px;
+	}
+	.location img
+	{
+		width:60% !important;
+	}
+
+	
+	
+
+	
+
+	
+}
+@media (max-width:480px)
+{
+	
+	.navbar
+	{
+		margin-top:80px;
+	}
+
+	#tfnewsearch
+	{
+		width:100% !important;
+		padding:10px 0px;
+	}
+	.product-thumbnails > .col-xs-6,
+	.popular-products > .col-xs-6,
+	.large-thumb .col-xs-4,
+	.footer-content .col-xs-6
+	{
+		width:100%;
+	}
+	.large-thumb > img
+	{
+		width:100% !important;
+	}
+	.large-thumb .pro-label,
+	.large-thumb .price .price-tag
+	{
+		border-right:none !important;
+	}
+	.footer-content
+	{
+		text-align:center;
+	}
+	.follow
+	{
+		text-align:left;
+	}
+
+	footer .block
+	{
+		border-bottom:1px dotted #FFC;
+		padding-bottom:20px;
+	}
+	.footer-menu ul li a
+	{
+		font-size:12px;
+	}
+	.input-label
+	{
+		font-size:12px !important;
+		width:45% !important;
+		padding-left:0px !important;
+	}
+	.tftextinput
+	{
+		width:35% !important;
+	}
+	.location img
+	{
+		width:90% !important;
+	}
+	.address ul
+	{
+		margin-top:10px !important;
+	}
+	.tfbutton
+	{
+		width:10% !important;
+	}
+
+
+	
+}
+@media (max-width:320px)
+{
+	.input-label
+	{
+		font-size:11px !important;
+		padding-left:0px;
+	}
+}

@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+@media (max-width:1200px)
+{
+	.twitter-follow .twitter-timeline
+	{
+		width:20%;
+	}
+	.sidebar .facebook-like
+	{
+		width:100% !important;
+	}
+	.sidebar .twitter-follow
+	{
+		width:100% !important;
+	}
+		.sidebar .twitter-follow .twitter-timeline
+		{
+			width:100% !important;
+		}
+}
+@media (max-width:1000px)
+{
+	.navbar-collapse ul li a
+	{
+		padding:15px 5px;
+	}
+	.audio-player .music-section
+	{
+		height:190px !important;
+	}
+}
+@media (max-width:767px)
+{
+	header .biz-logo img
+	{
+		width:150px;
+		height:40px;
+		margin-top:50px;
+	}
+	.search input
+	{
+		width:100px;
+		font-size:12px;
+	}
+	.left-section .thumbnail .movie-preview .inside-content
+	{
+		width:150px !important;
+	}
+
+	.recommended .thumbnail .movie-topic p
+	{
+		font-size:12px;
+	}
+
+	.thumbnail h4
+	{
+		font-size:15px;
+	}
+	.recommended .thumbnail .movie-topic
+	{
+		margin-left:-20px;
+	}
+		.sidebar .facebook-like
+	{
+		width:100% !important;
+	}
+	.sidebar .twitter-follow
+	{
+		width:100% !important;
+	}
+		.sidebar .twitter-follow .twitter-timeline
+		{
+			width:100% !important;
+		}
+	
+
+	footer
+	{
+		font-size:12px;
+	}
+}
+
+@media (max-width: 450px)
+{
+	.left-content .thumbnail .movie-topic h4
+	{
+		font-size:11px;
+	}
+
+	
+	.recommended .thumbnail .movie-preview
+	{
+		height:80px;
+	}
+	.thumbnail h4
+	{
+		font-size:12px;
+	}
+	.left-content .thumbnail .movie-preview
+	{
+		height:80px !important;
+	}
+	.recommended .thumbnail .movie-topic p
+	{
+		font-size:10px;
+	}
+		.sidebar .facebook-like
+	{
+		width:100% !important;
+	}
+	.sidebar .twitter-follow
+	{
+		width:100% !important;
+	}
+		footer
+	{
+		font-size:10px;
+	}
+}
